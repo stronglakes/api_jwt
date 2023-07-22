@@ -48,7 +48,6 @@ INSERT INTO roles (name) values ('ROLE_ASESOR');
 INSERT INTO roles (name) values ('ROLE_FACTURADOR');
 
 INSERT INTO roles_authorities (role_id, authority_id) (select (SELECT id FROM roles where name = 'ROLE_ADMIN')  AS role_id, e.id from authorities e );
-INSERT INTO roles_authorities (role_id, authority_id) (select (SELECT id FROM roles where name = 'ROLE_FACTURADOR')  AS role_id, e.id from authorities e );
 
 INSERT INTO users (name, username, password, looked, expired, enabled) VALUES ('Admin', 'admin', '$2a$10$TwROhi2MZsOTt8igkE7Yyec0WfjK7NlgdX9apOu0b6cY4SxzHLvCq', false, false, true);
 

@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ApiAuthzApplication",
+            "request": "launch",
+            "mainClass": "security.api_authz.ApiAuthzApplication",
+            "projectName": "api_authz"
+        },
+        {
+            "type": "java",
+            "name": "ApiFacturaApplication",
+            "request": "launch",
+            "mainClass": "facturacion.api_factura.ApiFacturaApplication",
+            "projectName": "api_factura"
+        },
+        {
+            "type": "java",
+            "name": "ApiProductoApplication",
+            "request": "launch",
+            "mainClass": "facturacion.api_producto.ApiProductoApplication",
+            "projectName": "api_producto"
+        },
+        {
+            "type": "java",
+            "name": "BwebApplication",
+            "request": "launch",
+            "mainClass": "bff.bweb.BwebApplication",
+            "projectName": "bweb"
+        }
+    ]
+}

@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'api_cliente.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'facturaciondb',
+        'NAME': 'clientedb',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': '0998402871',
         'HOST': 'localhost',
         'PORT': '5432'
     }
