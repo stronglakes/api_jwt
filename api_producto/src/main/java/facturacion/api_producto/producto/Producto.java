@@ -10,8 +10,8 @@ import lombok.Data;
 @Data
 public class Producto {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
     private String nombre;
     private String codigo;
     private double precio;    

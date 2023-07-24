@@ -1,8 +1,6 @@
 package bff.bweb.filter;
 
 import java.io.IOException;
-import java.util.Arrays;
-
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -19,7 +17,6 @@ import org.springframework.stereotype.Component;
 import bff.bweb.authz.UserClient;
 import feign.FeignException;
 
-import org.aspectj.weaver.ast.Instanceof;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
